@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>竞技宝 · 资料信息索引</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #fafaf9;
+            font-family: system-ui, -apple-system, 'Noto Serif CJK SC', 'STSong', 'SimSun', serif;
+            color: #1e1e1e;
+            line-height: 1.7;
+            padding: 2.4rem 1.2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .page {
+            max-width: 680px;
+            width: 100%;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 2.8rem 2rem;
+            border-radius: 20px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.02), 0 8px 24px rgba(0,0,0,0.02);
+        }
+        @media (max-width: 480px) {
+            body { padding: 1.2rem 0.8rem; }
+            .page { padding: 1.8rem 1.2rem; }
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #e6e4e0;
+            margin: 2.2rem 0 2rem 0;
+        }
+        h1 {
+            font-size: 1.9rem;
+            font-weight: 450;
+            letter-spacing: -0.01em;
+            margin-bottom: 1.2rem;
+            color: #1a1a1a;
+            line-height: 1.3;
+        }
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 450;
+            margin-top: 2.6rem;
+            margin-bottom: 1rem;
+            color: #2c2c2c;
+            border-bottom: 1px solid #efedea;
+            padding-bottom: 0.3rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 450;
+            margin-top: 1.8rem;
+            margin-bottom: 0.25rem;
+            color: #333;
+        }
+        p {
+            margin-bottom: 1.1rem;
+            text-align: left;
+            word-break: break-word;
+        }
+        a {
+            color: #1f5c5e;
+            text-decoration: none;
+            border-bottom: 1px solid #cbdad9;
+            transition: border-color 0.2s, color 0.2s;
+        }
+        a:hover, a:focus {
+            color: #043a3c;
+            border-bottom-color: #043a3c;
+        }
+        .snippet {
+            background: #f5f3f0;
+            border-left: 4px solid #c0b5a8;
+            padding: 0.8rem 1.2rem;
+            margin: 1.2rem 0 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95rem;
+            color: #2c2c2c;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin: 1.8rem 0 0.8rem 0;
+        }
+        @media (max-width: 480px) {
+            .card-grid { grid-template-columns: 1fr; }
+        }
+        .card {
+            background: #f9f8f6;
+            border-radius: 12px;
+            padding: 1.2rem 1.2rem 1.4rem 1.2rem;
+            border: 1px solid #efedeb;
+        }
+        .card h4 {
+            font-weight: 450;
+            font-size: 1.05rem;
+            margin-bottom: 0.4rem;
+            color: #1e3d3d;
+        }
+        .card p {
+            font-size: 0.92rem;
+            margin-bottom: 0;
+            color: #3a3a3a;
+        }
+        .tag {
+            display: inline-block;
+            background: #eae7e1;
+            color: #3b3b3b;
+            font-size: 0.75rem;
+            padding: 0.2rem 0.7rem;
+            border-radius: 20px;
+            letter-spacing: 0.02em;
+            margin-right: 0.4rem;
+        }
+        .faq-item {
+            margin: 1.4rem 0 0.8rem 0;
+        }
+        .faq-item strong {
+            display: block;
+            font-weight: 480;
+            margin-bottom: 0.2rem;
+            color: #1a1a1a;
+        }
+        .faq-item p {
+            margin-bottom: 0.2rem;
+            font-size: 0.95rem;
+        }
+        .footnote {
+            margin-top: 2.8rem;
+            font-size: 0.85rem;
+            color: #6b6b6b;
+            text-align: center;
+            border-top: 1px solid #eae7e2;
+            padding-top: 1.6rem;
+        }
+        .footnote a {
+            color: #5c6f6f;
+            border-bottom: 1px solid #cfcdc8;
+        }
+        .footnote a:hover {
+            color: #1f3b3b;
+        }
+        .inline-link-sentence {
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <h1>竞技宝 · 资料整理与信息索引</h1>
+    <p style="font-size: 1.05rem; color: #444;">从信息聚合与资源检索的角度，梳理竞技宝平台的内容脉络与使用场景。</p>
+
+    <div class="snippet">
+        <span class="tag">索引说明</span> 本文档并非官方文档，而是基于公开资料和用户经验整理的信息汇编。旨在帮助新接触者快速建立对“竞技宝”的认知框架。
+    </div>
+
+    <h2>一、平台摘要</h2>
+    <p><a href="https://zh-han-jingjibao.com">竞技宝</a>是一个聚合型数字服务站点，提供赛事资讯、数据查询及社区交流等模块。其内容覆盖多个竞技领域，并持续更新赛事动态与相关数据。平台界面采用信息卡片与索引目录相结合的方式，便于用户按类别检索所需内容。</p>
+    <p>从资料整理的角度看，竞技宝更像一个“信息枢纽”——它将分散的赛事数据、赛程预告、选手资料等内容整合在统一框架下，减少用户在不同站点之间跳转的频次。同时，平台内嵌的搜索与筛选功能，也为深度信息挖掘提供了基础。</p>
+
+    <h2>二、内容亮点</h2>
+    <div class="card-grid">
+        <div class="card">
+            <h4>赛事时间线</h4>
+            <p>按日期排列的赛程列表，支持按项目、地区、级别过滤。方便快速定位某一场次。</p>
+        </div>
+        <div class="card">
+            <h4>数据档案</h4>
+            <p>收录历史对战记录、选手近期表现、队伍交锋数据等，适合复盘分析。</p>
+        </div>
+        <div class="card">
+            <h4>社区讨论</h4>
+            <p>围绕赛事与选手的讨论区，用户可发布观点、提问或分享整理资料。</p>
+        </div>
+        <div class="card">
+            <h4>索引目录</h4>
+            <p>按字母/热度排序的条目索引，适合快速浏览或查找特定主题。</p>
+        </div>
+    </div>
+    <p style="margin-top: 0.2rem; font-size: 0.92rem; color: #4b4b4b;">以上模块均可在平台内逐层展开，不同区块之间的关联通过标签与交叉链接实现。</p>
+
+    <h2>三、使用建议</h2>
+    <p>如果你是第一次接触竞技宝，不妨先浏览首页的“热门赛事”或“近期更新”板块，感受信息呈现的密度与节奏。之后可以尝试使用搜索栏或索引目录定向查找你感兴趣的领域。对于需要持续追踪的赛事，可以利用平台的“关注”或“订阅”功能（如支持）来接收动态更新。</p>
+    <p>从信息整理的角度，建议定期整理自己关注的赛程与数据。竞技宝的页面结构相对规整，多数信息块可被外部工具或浏览器插件抓取，便于建立个人资料库。不过请注意，平台内容可能随时调整，重要数据建议多方核对。</p>
+
+    <h2>四、场景提示</h2>
+    <p><strong>场景一：赛前准备。</strong> 查阅即将开始的比赛对阵，了解双方近期交手记录与选手状态。竞技宝的赛程页面通常会给出阵容名单和历史数据链接，可作为基础参考资料。</p>
+    <p><strong>场景二：赛后复盘。</strong> 比赛结束后，平台会更新比分、关键数据以及相关讨论帖。可在社区中查看其他用户的战术分析，或自行整理数据图表。</p>
+    <p><strong>场景三：资料收集。</strong> 如果你在撰写赛事综述、选手专题或行业报告，竞技宝的档案模块能提供结构化的数据条目，配合外部来源可形成更完整的素材链。</p>
+
+    <hr>
+
+    <h2>五、常见问题摘要</h2>
+    <div class="faq-item">
+        <strong>Q：竞技宝收录哪些类型的赛事？</strong>
+        <p>目前涵盖多个主流竞技项目，包括但不限于团队对抗、个人竞速、策略对战等。具体列表可在平台“全部赛事”页面查看。</p>
+    </div>
+    <div class="faq-item">
+        <strong>Q：数据更新频率如何？</strong>
+        <p>赛程与比分通常在比赛结束后数分钟内更新。历史数据以自然日为单位刷新。社区内容由用户实时发布，平台会进行基础审核。</p>
+    </div>
+    <div class="faq-item">
+        <strong>Q：是否需要注册才能浏览？</strong>
+        <p>大部分内容对访客开放，部分互动功能（如发帖、关注）可能需要注册账户。注册流程简单，需提供有效的电子邮箱。</p>
+    </div>
+
+    <p style="margin-top: 2rem; font-size: 0.92rem; color: #3f3f3f;">以上问答基于平台常见说明整理，具体规则以实际页面为准。若需要更详细的操作指引，可在站内搜索“帮助”或“指南”。</p>
+
+    <h2>六、访问说明</h2>
+    <p>本索引页仅为信息介绍，不构成对任何服务或内容的担保。如果你想直接浏览平台，可通过下方链接前往。建议在熟悉界面布局后，再根据自身需求进行深度使用。</p>
+    <p style="margin: 1.6rem 0 0.8rem 0; text-align: center;">
+        <span style="background: #f0efeb; padding: 0.3rem 1.2rem; border-radius: 30px; display: inline-block; font-size: 1rem;">
+            <a href="https://zh-han-jingjibao.com" style="border-bottom: none; font-weight: 450;">竞技宝</a>
+        </span>
+    </p>
+    <p style="font-size: 0.88rem; color: #5a5a5a; text-align: center;">— 页面内容由资料整理者独立编写，与平台官方无直接关联 —</p>
+
+    <div class="footnote">
+        <p>本索引页基于公开信息与用户经验整理 · 内容仅供参考</p>
+        <p style="margin-top: 0.2rem;">更多资料可前往 <a href="https://zh-han-jingjibao.com">竞技宝</a> 自行查阅</p>
+    </div>
+</div>
+</body>
+</html>
